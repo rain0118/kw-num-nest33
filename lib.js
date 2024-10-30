@@ -4,11 +4,23 @@ function avg(numbers) {
 }
 
 function prime(sum) {
-    return false;
+    for (let i = 0;i < num;i++) {
+        if (sum % i == 0) {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 function factorial(num) {
-    return -1;
+    let fact = 1;
+
+    for (let i = num;num >=1;i--) {
+        fact *= i;
+    }
+
+    return fact;
 }
 
 module.exports = {
