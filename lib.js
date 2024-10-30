@@ -3,9 +3,9 @@ function avg(numbers) {
     return s / numbers.length;
 }
 
-function prime(sum) {
+function prime(num) {
     for (let i = 0;i < num;i++) {
-        if (sum % i == 0) {
+        if (num % i == 0) {
             return false;
         }
     }
